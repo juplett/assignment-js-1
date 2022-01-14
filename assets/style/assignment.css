@@ -1,0 +1,13 @@
+@import "base.css";
+
+input {
+    width:130px;
+    height: 25px;
+    font-weight: 700;
+    background-color: rgb(211, 211, 211);
+}
+
+.dark-mode{
+    background-color: rgb(27, 27, 27);
+    color: white;
+}

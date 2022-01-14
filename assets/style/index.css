@@ -1,0 +1,181 @@
+@import "base.css";
+
+
+header {
+    min-width: 100%;
+    background-color: rgb(139, 139, 139);
+    overflow: hidden;
+}
+
+header div{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.title {
+    height: 56px;
+    padding-left: 50px;
+}
+
+.title h1 {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    line-height: 56px;
+    letter-spacing: .4px;
+    text-transform: uppercase;
+}
+
+nav {
+    text-align: right;
+    height: 0;
+}
+
+nav ul{
+    list-style: none;
+    font-size: 0;
+}
+
+nav ul li{ 
+    display: inline;
+    line-height: 56px;
+    cursor: default;
+}
+
+nav ul li a{
+    font-size:  17px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: .2px;
+    text-transform: none;
+    cursor: pointer;
+}
+
+/* nav ul li a:hover{
+    text-decoration: underline; 
+} */
+
+nav ul li + li{
+    margin-left: 25px;
+    
+}
+
+/* column */
+.container {
+    position: relative;
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+
+main{
+    height: calc(100vh - 56px - 50px);
+}
+
+
+.button {
+    width: 250px;
+    height:45px;
+    border-radius: 4px;
+    font-size: 17px;
+    color: #fff;
+    background-color: blue;
+    box-shadow: rgba(0, 0, 0, .3);
+}
+
+.button:hover {
+    background-color: aqua;
+}
+
+#message {
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+#message.is-visable {
+    visibility: visible;
+    opacity: 1;
+}
+
+#purple.purple {
+    color: #b84eef;
+}
+
+#green.green {
+    color: #0f9;
+}
+
+#orange.orange{
+    color: #f90;
+}
+
+#list li {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#list li + li {
+    margin-top: 8px;
+}
+
+input[type="text"] {
+    width: 200px;
+    height: 45px;
+    background-color: #f4f5f6;
+    padding: 0 15px;
+    border-radius: 4;
+    margin-right: 15px;
+}
+
+/* -------------------------*/
+/* ---------Footer---------*/
+/* ---------------------- */
+
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(139, 139, 139);
+}
+
+.footnav{
+    padding-left: 50px;
+    text-decoration: none;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footnav ul li a i{
+    line-height: 40px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.footnav ul li{
+    display: inline;
+}
+
+.fa-github{
+    color:black;
+}
+
+.fa-youtube{
+    color:  black;
+}
+
+.fa-instagram{
+    color:  black;
+}
+
+
+
+
+
+
+
+
