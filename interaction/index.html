@@ -1,0 +1,57 @@
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/base.css">
+    <link rel="stylesheet" href="assets/style/assignment.css">
+    <title>INTERACTION</title>
+    <script src="assets/js/assignment.js" defer></script>
+</head>
+<body>
+ 
+    <!-- header -->
+
+    <div class="wrapper">
+
+        <main>
+
+            <div class="container">
+                <section id="section">
+                    <div id="temp">
+
+                        <h3>Celsius to Fahrenheit</h3>
+                        <br>
+                        <input id="inputC" type="text" placeholder="Inupt num"
+                        oninput="celsiusConvert(this.value)" 
+                        onchange="celsiusConvert(this.value)">
+                        <p id="fVal">Input Aswer</p>
+
+                        <br><br>
+
+                        <h3>Fahrenheit to Celsius</h3>
+                        <br>
+                        <input id="inputF" type="text" placeholder="Inupt num"
+                        oninput="farenheitConvert(this.value)" 
+                        onchange="farenheitConvert(this.value)">
+                        <p id="cVal">Input Aswer</p>
+
+                    </div>
+                  
+                    <br><br>
+                    <button id="mode">Light mode</button>
+                       
+
+                </section>
+            </div>
+
+        </main>
+        
+        <!-- Footer -->
+    </div>
+
+    <noscript>
+        <p>this page requires a JavaScript-enabled browser</p>
+    </noscript>
+</body>
+</html>
